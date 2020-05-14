@@ -1,0 +1,18 @@
+@use 'colors';
+
+body {
+  background-color: colors.$background-color;
+  color: colors.$primary-color;
+}
+
+h3, span, pre, small, code {
+  color: colors.$secondary-color;
+}
+
+a {
+  color: colors.$primary-link-color;
+}
+
+input, table, td {
+  border: 1px solid colors.$default-border-or-line-color;
+}

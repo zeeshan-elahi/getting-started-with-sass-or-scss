@@ -1,0 +1,35 @@
+/* This will create a place-holder class name 'alert-messages' */
+/* Start of alert-messages */
+%alert-messages {
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  padding: .75rem 1.25rem;
+  position: relative;
+}
+/* End of alert-messages */
+
+/* This will also declare a place-holder class. */
+/* But as we will not extend any other class from it */
+/* Sass compiler will not print/include it in final CSS */
+/* Start of unused-place-holder-class */
+%unused-place-holder-class {
+  colr: #ffffff;
+  background: #000000;
+}
+/* End of unused-place-holder-class */
+
+/* A CSS class that will inherit basic styles from a place-holder class using @extend */
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  @extend %alert-messages;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  @extend %alert-messages;
+}

@@ -1,0 +1,28 @@
+ul.ftco-footer-social li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px 10px 0;
+}
+ul.ftco-footer-social li a {
+  background: #ffffff80;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+ul.ftco-footer-social li a span {
+  font-size: 26px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+ul.ftco-footer-social li a:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=nesting.css.map */

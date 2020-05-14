@@ -1,0 +1,26 @@
+$primary-color: #ffffff;
+$font-family: Arial, sans-serif;
+
+@mixin normal-text-style($font, $font-size, $color) {
+  font-family: $font;
+  font-size: $font-size;
+  color: $color;
+}
+
+
+@mixin translate-50($transform-value) {
+  -moz-transform: $transform-value;
+  -ms-transform: $transform-value;
+  -webkit-transform: $transform-value;
+  transform: $transform-value;
+}
+
+/* A mixin or function that will group and return styles for our normal body text*/
+body {
+  @include normal-text-style($font-family, 12, $primary-color);
+}
+
+/*Another example of using mixin for vendor prefixes*/
+span.round {
+  @include translate-50( translate(-50%, -50%) );
+}

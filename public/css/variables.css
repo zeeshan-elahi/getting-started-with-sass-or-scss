@@ -1,0 +1,18 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h3, span, pre, small, code {
+  color: #8c8c8c;
+}
+
+a {
+  color: #117fd9;
+}
+
+input, table, td {
+  border: 1px solid #2c2c2c;
+}
+
+/*# sourceMappingURL=variables.css.map */

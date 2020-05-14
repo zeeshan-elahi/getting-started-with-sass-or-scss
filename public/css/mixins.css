@@ -1,0 +1,16 @@
+/* A mixin or function that will group and return styles for our normal body text */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12;
+  color: #ffffff;
+}
+
+/* Another example of using mixin for vendor prefixes */
+span.round {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=mixins.css.map */
